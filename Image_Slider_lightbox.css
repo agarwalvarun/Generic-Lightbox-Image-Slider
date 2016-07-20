@@ -1,0 +1,32 @@
+.lightbox{
+	display: flex;
+	z-index: 10001;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background: rgba(0,0,0,0.8);
+	align-items: center;
+	justify-content: center;
+	transition: all .6s ease-in;
+}
+.fa-times{
+	color: white;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+.fa-chevron-right{
+	color: #797777;
+	position: absolute;
+	top: 50%;
+	right: 17%;
+}
+.fa-chevron-left{
+	color: #797777;
+	position: absolute;
+	top: 50%;
+	left: 17%;
+}

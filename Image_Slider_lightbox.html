@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider (Lightbox)</title>
+	<script src="jquery-1.9.1.min.js"></script>
+    <script src="Image_Slider_lightbox.js"></script>
+	<link rel="stylesheet" href="Image_Slider_lightbox.css">
+	<link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id='images_holder'>
+		<img src="images\work-full1.jpg">	
+		<img src="images\work-full2.jpg">
+		<img src="images\work-full3.jpg">
+		<img src="images\work-full4.jpg">
+		<img src="images\work-full5.jpg">
+		<img src="images\work-full6.jpg">
+		<img src="images\work-full7.jpg">
+		<img src="images\work-full8.jpg">
+	</div>
+	<script>
+		function onBodyLoad(){
+			slider.init('images_holder');
+		}
+		window.addEventListener('load',onBodyLoad);
+	</script>
+</body>
+</html>
